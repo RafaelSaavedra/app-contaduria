@@ -1,0 +1,75 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-color: #dca01e;
+    margin: 50px 0 50px 0;
+    border-radius: 20px;
+    
+}
+.entrada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.img-logo{
+    margin: 50px 100px 50px 100px;
+    border-radius: 30px;
+}
+
+.usuario{
+    width: 500px;
+}
+span{
+    color: rgb(153, 25, 40);
+    
+}
+.container{
+    align-content: flex-start;
+}
+.labels-form-login{
+    font-family: 'Joti One', cursive;
+    font-size: 25px;
+    margin: 17px 13px 0px 11px;
+}
+
+#form-login{
+    width: 250px;
+    border: solid 1px orange;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.btn-login{
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: orange;
+}
+.btn-login:hover{
+    color: orange;
+    background-color: black;
+}
+.labels-form-logged{
+    font-family: 'Joti One', cursive;
+    font-size: 25px;
+    margin: 17px 13px 0px 11px;
+}
+#form-logged{
+    width: 250px;
+    border: solid 1px rgb(235, 96, 4);
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.btn-logged{
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgb(235, 96, 4);
+}
+.btn-logged:hover{
+    color: rgb(235, 96, 4);
+    background-color: black;
+}

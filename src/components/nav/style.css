@@ -10,3 +10,13 @@
     font-family: 'Joti One', cursive;
     margin-left: 40px;
 }
+
+.nav-global-log{
+    background-color: #DFD71C ;
+    display: flex;
+    align-items: center;
+}
+
+.imagen-general{
+    width: 40px
+}
