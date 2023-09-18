@@ -14,9 +14,25 @@
 .nav-global-log{
     background-color: #DFD71C ;
     display: flex;
-    align-items: center;
+    align-items: stretch;
 }
 
 .imagen-general{
-    width: 40px
+    width: 40px      
+}
+
+.espan{
+    border-color: #e4ae51;
+    border-style: solid;
+    border-radius: 11px;
+    margin-left: 7px;
+    background-color: rgb(243, 241, 216);
+    display: flex;
+    align-items: stretch;
+}
+
+.espan:hover{
+    color: rgb(245, 106, 7);
+    background-color: rgb(52, 27, 27);
+
 }

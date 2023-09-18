@@ -26,10 +26,15 @@ function onClickAyuda (e){
     //e.defaultPrevent
     console.log('Ayuda'); 
 }
+
 function onClickSalir (e){
     //e.defaultPrevent
-    console.log('Salir'); 
+    localStorage.removeItem("estatusSesion")
+    //la siguiente linea de codigo nos ayudará a refrescar la pantalla
+    window.location.reload() 
+    console.log('Salir');
 }
+
 
 
 
@@ -39,29 +44,38 @@ function Nav (){
     //En el return solamente vamos a retornar lo que es HTML y algunas variables
     console.log(estatusSesion);
     //Con la siguiente linea de codigo se asigna un valor, y la estructura es: el primer atributo es la key y el segundo es el valor, siempre que queramos acceder al valor o remover vamos a ocupar la key
-    localStorage.setItem("estatusSesion", "Exitoso")
 
+    //localStorage.setItem("estatusSesion", "Exitoso")
     //localStorage.removeItem("estatusSesion")
-    
+
+    /*
+    function onClickSalir (e){
+        //e.defaultPrevent
+        console.log('Salir');
+        localStorage.removeItem("estatusSesion") 
+    }
+    */
     if(estatusSesion === "Exitoso"){
         return<div className="nav-global-log">
-            <span onClick={onClickHome}>
+            <span className="espan" onClick={onClickHome}>
+                <label className="navegador"></label>
                 <img className= "imagen-general" src={home} alt= "regresar a home"/>
             </span>
-            <span onClick={onClickRegistro}>
+            <span className="espan" onClick={onClickRegistro}>
                 <img className= "imagen-general" src={registro} alt= "registrarse"/>
             </span>
-            <span onClick={onClickNuevo}>
+            <span className="espan" onClick={onClickNuevo}>
                 <img className= "imagen-general" src={nuevo} alt= "ir a nuevo"/>
             </span>
-            <span onClick={onClickMas}>
+            <span className="espan" onClick={onClickMas}>
                 <img className= "imagen-general" src={mas} alt= "ir a mas"/>
             </span>
-            <span onClick={onClickAyuda}>
+            <span className="espan" onClick={onClickAyuda}>
                 <img className= "imagen-general" src={ayuda} alt= "ir a ayuda"/>
             </span>
-            <span onClick={onClickSalir}>
+            <span className="espan" onClick={onClickSalir}>
                 <img className= "imagen-general" src={salir} alt= "salir"/>
+                
             </span>
         </div>
         /*

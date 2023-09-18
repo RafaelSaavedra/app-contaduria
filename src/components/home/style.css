@@ -43,6 +43,7 @@ span{
     border: solid 1px orange;
     border-radius: 10px;
     margin-left: 30px;
+    margin-right: 40px
 }
 .btn-login{
     margin-bottom: 20px;
@@ -56,20 +57,21 @@ span{
 .labels-form-logged{
     font-family: 'Joti One', cursive;
     font-size: 25px;
-    margin: 17px 13px 0px 11px;
+    margin: 20px 20px 10px 20px;
+    text-decoration: none;
+    color: chocolate;
 }
-#form-logged{
-    width: 250px;
-    border: solid 1px rgb(235, 96, 4);
-    border-radius: 10px;
+.form-logged{
+    width: 190px;
+    border: solid 2px chocolate;
     margin-left: 30px;
 }
 .btn-logged{
     margin-bottom: 20px;
     border-radius: 8px;
-    background-color: rgb(235, 96, 4);
+    background-color: rgb(243, 241, 216);
 }
 .btn-logged:hover{
-    color: rgb(235, 96, 4);
-    background-color: black;
+    color: rgb(245, 106, 7);
+    background-color: rgb(52, 27, 27);
 }

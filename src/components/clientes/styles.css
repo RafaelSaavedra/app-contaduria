@@ -1,0 +1,83 @@
+.contain-global{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    border: solid 1px orange;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.font-text{
+    font-family: 'Joti One', cursive;
+    margin: 5px 5px 5px 5px;  
+}
+.btn-style{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(243, 241, 216);
+    width: 122px;
+    color: chocolate;
+    border: solid 1px chocolate;
+    margin-left: 30px;
+    height: 27px;
+}
+.labels-form-login{
+    font-family: 'Joti One', cursive;
+    font-size: 25px;
+    margin: 17px 13px 0px 11px;
+}
+.btn-login{
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: orange;
+}
+.modal-products{
+    display: none;
+    display: flex;
+    background-color: rgb(0,0,0,0.2);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container{
+    background-color: rgb(243, 241, 216);
+    height: 60%;
+    width: 60%;
+    border-radius: 15px;
+    border: solid 1px rgb(153, 25, 40);
+}
+.modal-close{
+    height: 30px;
+    width: 30px;
+}
+.modal-close:hover{
+    height: 33px;
+    width: 33px;
+    
+    border-radius: 10px;
+    border: solid 1px rgb(153, 25, 40) ;
+}
+.modal-prod{
+    height: 500px;
+    width: 500px;
+    
+}
+.modal-product{
+    font-family: 'Joti One', cursive;
+    color: chocolate;
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;  
+}
