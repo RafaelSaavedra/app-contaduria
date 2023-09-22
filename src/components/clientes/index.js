@@ -6,7 +6,7 @@ import close from '../../Image/cerrar.png'
 
 
 function Cliente (){
-   
+
     const [viewdiv, setViewdiv] = useState(false)
     const [clients, setClients] = useState([])
     const [products, setProducts] = useState([]);
@@ -51,14 +51,16 @@ function Cliente (){
         return <div className="modal-products">
         <div className="modal-container">
             <img className="modal-close" src={close} onClick={onClickCerrar} alt="Cerrar" ></img>
+            
             <ol className="modal-prod">
+            <div className="modal-product">
                 {products.map(product => {
                 console.log(product)
-                return<li className="modal-product">
-                            {product.nombre}
-                        </li>
+                return<li>{product.nombre}</li>
                 })}
+                </div>
             </ol>
+            
         </div>
     </div>
     }
@@ -79,7 +81,6 @@ function Cliente (){
             {viewdiv && (creacionDeModal(products))}
             <Footer/> 
         </div>          
-       
         
     }
     export default Cliente;
